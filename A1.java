@@ -1,12 +1,7 @@
-import java.util.Arrays;
-
-public class A1 {
 
 //This feature about going to sorting a list of Strings
-public static void main(String args[])   
+public static void stringSort(String clrs[])
 {  
-//defining an array of type string  
-String[] clrs = {"Blue", "Green", "Red", "Yellow", "White"};
 
 //sorts string array in alphabetical order or ascending order  
 Arrays.sort(clrs);  
@@ -14,4 +9,4 @@ Arrays.sort(clrs);
 System.out.println(Arrays.toString(clrs));  
 }  
 
-}
+
